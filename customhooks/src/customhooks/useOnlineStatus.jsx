@@ -3,18 +3,13 @@ import { useState, useEffect } from 'react';
 export function useOnlineStatus() {
     const [isOnline, setIsOnline] = useState(true);
     useEffect(() => {
-        function handleOnline() {
-            setIsOnline(true);
-        }
-        function handleOffline() {
-            setIsOnline(false);
-        }
-        window.addEventListener('online', handleOnline);
-        window.addEventListener('offline', handleOffline);
+        // 在沒有 api 的情況之下，使用 setInterval 簡易製作每三秒自動切換上線狀態功能，讓畫面產生變化。
+        const myinterval = setInterval(() => {
+            setIsOnline(!isOnline);
+        }, 5000);
         return () => {
-            window.removeEventListener('online', handleOnline);
-            window.removeEventListener('offline', handleOffline);
+            clearInterval(myinterval);
         };
-    }, []);
+    }, [isOnline]);
     return isOnline;
 }
