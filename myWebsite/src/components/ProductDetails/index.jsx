@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import fetchProductData from '../customHooks/fetchProductData';
+import fetchProductData from '../../customHooks/fetchProductData';
 import './style.css';
 import Product from '../Product';
 

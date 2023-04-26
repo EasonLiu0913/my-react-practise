@@ -5,7 +5,7 @@ import Product from '../Product';
 import ProductDetails from '../ProductDetails';
 import { Link } from 'react-router-dom';
 import './style.css';
-import fetchProductData from '../customHooks/fetchProductData';
+import fetchProductData from '../../customHooks/fetchProductData';
 
 export default function ProductsPage() {
     const productData = fetchProductData();
