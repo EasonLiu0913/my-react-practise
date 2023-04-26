@@ -2,15 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import fetchProductData from '../../customHooks/fetchProductData';
 import './style.css';
-import Product from '../Product';
+import Product from '../../components/ProductCard';
+import styled from 'styled-components';
+import { Container } from './styled';
 
 export default function ProductDetails() {
     const productsData = fetchProductData();
     const BASEURL = 'http://localhost:5173/';
     const params = useParams();
-    console.log('productsData', productsData);
     const product = productsData[params.id];
-
     const [quantity, setQuantity] = useState(1);
 
     // 每次都要隨機取得四個不與 params.id 產品重複的推薦商品
@@ -45,7 +45,7 @@ export default function ProductDetails() {
     return (
         product && (
             <>
-                <div className="conatainer">
+                <Container>
                     <div className="bread-crumbs">
                         <Link to="/">Home</Link>
                         <span> / </span>
@@ -53,6 +53,7 @@ export default function ProductDetails() {
                         <span> / </span>
                         <span>product</span>
                     </div>
+
                     <div className="product-info-area">
                         <div className="product-img">
                             <img
@@ -133,7 +134,7 @@ export default function ProductDetails() {
                                 })}
                         </div>
                     </div>
-                </div>
+                </Container>
             </>
         )
     );
