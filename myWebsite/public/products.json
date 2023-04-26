@@ -1,0 +1,14 @@
+[
+    {"id":0,"name":"Lounge Tunic / Black","price":50},
+    {"id":1,"name":"Lounge Tunic / Blue","price":50},
+    {"id":2,"name":"Lounge Tunic / Cream","price":50},
+    {"id":3,"name":"Sonia Skirt","price":50},
+    {"id":4,"name":"Sonia Dress","price":50},
+    {"id":5,"name":"Wide Pant","price":50},
+    {"id":6,"name":"Haori Jacket","price":50},
+    {"id":7,"name":"Wide Pant / Blue","price":50},
+    {"id":8,"name":"Jane Skirt","price":50},
+    {"id":9,"name":"Romy Trousers","price":50},
+    {"id":10,"name":"Poplin Chef Shirt","price":40},
+    {"id":11,"name":"Jacky Trousers","price":50}
+]

@@ -1,0 +1,47 @@
+.pageTitle {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.productArea {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productArea a {
+    width: 100%;
+}
+
+.product {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+    .productArea a {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .productArea a {
+        width: 33.333333%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .productArea a {
+        width: 25%;
+    }
+}

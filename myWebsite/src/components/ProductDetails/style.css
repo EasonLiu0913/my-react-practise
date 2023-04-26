@@ -1,0 +1,92 @@
+.conatainer {
+    width: 80%;
+    margin: auto;
+}
+
+.product-info-area {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.product-img {
+    width: 50%;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.product-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.product-info h3 {
+    margin-bottom: 20px;
+}
+
+.product-info > div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.product-info p {
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+
+.product-info ul {
+    padding-left: 40px;
+}
+
+.product-info select {
+    width: 100%;
+    aspect-ratio: 10/1;
+    font-size: 1.2rem;
+}
+
+.product-info input {
+    width: 100%;
+    aspect-ratio: 10/1;
+    font-size: 1.2rem;
+}
+
+.suggest h2 {
+    font-size: 2rem;
+}
+
+.suggest-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.suggest-products > a {
+    width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+    .conatainer {
+        width: 100%;
+    }
+
+    .product-img,
+    .product-info {
+        width: 100%;
+    }
+
+    .suggest-products > a {
+        width: 50%;
+    }
+}
