@@ -54,14 +54,16 @@
 
 .product-info select {
     width: 100%;
-    aspect-ratio: 10/1;
+    /* aspect-ratio: 10/1; */
     font-size: 1.2rem;
+    padding: 1rem;
 }
 
 .product-info input {
     width: 100%;
-    aspect-ratio: 10/1;
+    /* aspect-ratio: 10/1; */
     font-size: 1.2rem;
+    padding: 1rem;
 }
 
 .suggest h2 {
