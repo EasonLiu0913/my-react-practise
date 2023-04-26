@@ -1,7 +1,8 @@
-.conatainer {
+/* .conatainer {
     width: 80%;
     margin: auto;
-}
+    padding-top: 100px;
+} */
 
 .product-info-area {
     display: flex;
@@ -70,6 +71,10 @@
 .suggest-products {
     display: flex;
     flex-wrap: wrap;
+}
+
+.suggest-products img {
+    width: 100%;
 }
 
 .suggest-products > a {
