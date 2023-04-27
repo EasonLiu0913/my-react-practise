@@ -4,6 +4,7 @@
 <br />
 ## 後台 (react-dashboard)<br />
 ![image](https://github.com/EasonLiu0913/my-react-practise/blob/master/screenshots/react-dashboard.png)<br />
+![image](https://github.com/EasonLiu0913/my-react-practise/blob/master/screenshots/react-dashboard.png)<br />
 ![image](https://raw.githubusercontent.com/EasonLiu0913/my-react-practise/master/screenshots/react-dashboard.png)
 <br />
 ## 前台 (myWebsite)<br />
