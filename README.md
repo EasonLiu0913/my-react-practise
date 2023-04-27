@@ -9,7 +9,7 @@
 <br />
 ## 前台 (myWebsite)<br />
 ### Home page 輪播牆功能<br />
-![image](https://raw.githubusercontent.com/EasonLiu0913/my-react-practise/master/screenshots/myWebsite1.png)
+![image](https://github.com/EasonLiu0913/my-React-Website-demo/blob/master/screenshots/%E6%88%AA%E5%9C%96%202023-04-27%20%E4%B8%8B%E5%8D%884.18.01.png)
 <br />
 ### custom hook and fetch to get product data<br />
 ![image](https://raw.githubusercontent.com/EasonLiu0913/my-react-practise/master/screenshots/myWebsite2.png)
