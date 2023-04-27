@@ -1,6 +1,6 @@
 # my-react-practise
 
-## 目前有功能練習：react-router6.4, react-query, abortController, customhoos 以及：
+## 目前有功能練習：react-router6.4, react-query, abortController, customhoos 以及
 
 ## 後台 (react-dashboard)
 ![image](https://raw.githubusercontent.com/EasonLiu0913/my-react-practise/master/screenshots/react-dashboard.png)
