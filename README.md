@@ -15,5 +15,11 @@ you can watch it online: https://myreactwebsitedemo.netlify.app/
 ### random suggest products without repeat
 ![image](https://raw.githubusercontent.com/EasonLiu0913/my-react-practise/master/screenshots/myWebsite3.png)
 
+### sign up/ sign in function using firebase
+![image](https://github.com/EasonLiu0913/my-react-practise/blob/master/screenshots/myWebsite4.png)
+
+### get simple user data after login
+![image](https://github.com/EasonLiu0913/my-react-practise/blob/master/screenshots/myWebsite5.png)
+
 ## 後台 (react-dashboard)
 ![image](https://raw.githubusercontent.com/EasonLiu0913/my-react-practise/master/screenshots/react-dashboard.png)
