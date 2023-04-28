@@ -1,6 +1,6 @@
 # my-react-practise
 
-## 目前有功能練習：react-router6.4, react-query, abortController, customhoos 以及
+## 目前有功能練習：react-router6.4, react-query, abortController, customhooks 以及
 
 ## 前台 (myWebsite)
 
