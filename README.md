@@ -23,3 +23,6 @@ you can watch it online: https://myreactwebsitedemo.netlify.app/
 
 ## 後台 (react-dashboard)
 ![image](https://raw.githubusercontent.com/EasonLiu0913/my-react-practise/master/screenshots/react-dashboard.png)
+
+## 另外用 Node.js + ngrok 建立了一個簡易 LineBot 學人精聊天機器人
+![image](https://github.com/EasonLiu0913/my-react-practise/blob/master/screenshots/LineBot.png)
